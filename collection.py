@@ -15,5 +15,5 @@ authors = {                                                     #fixed miss spel
     "Anthony Trollope": "1882",
     "Gerard Manley Hopkins": "1889"                             #added  bracket
 }
-for author, date in authors.items():                             #added coman and replace brackets with parantheses
+for author, date in authors.items():                             #added coma and replace brackets with parantheses
     print("%s" % author + " died in " + "%s." % date)            #put in parantheses
